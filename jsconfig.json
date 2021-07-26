@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "allowSyntheticDefaultImports": false,
-    "baseUrl": "./",
-    "paths": {
-      "@Components/*": ["src/components/*"],
-      "@App/*": ["src/*"]
-    }
-  },
-  "typeAcquisition": {
-  "exclude": [ "dotenv" ]
-},
-  "exclude": ["node_modules", "dist"]
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@Components/*": ["src/components/*"],
+			"@Styles/*": ["src/styles/*"],
+			"@Helpers/*": ["src/helpers/*"],
+			"@App/*": ["src/*"]
+		}
+	},
+	"typeAcquisition": {
+		"exclude": ["dotenv", "harmony-reflect"]
+	},
+	"exclude": ["dist"]
 }
